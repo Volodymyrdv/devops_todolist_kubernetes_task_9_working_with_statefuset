@@ -68,7 +68,7 @@ DATABASES = {
         "USER": os.environ.get("USER", "default_user"),
         "PASSWORD": os.environ.get("PASSWORD", "default_password"),
         "HOST": os.environ.get("HOST", "localhost"),
-        "PORT": 3306
+        "PORT": "3306"
     }
 
     # "default": {
